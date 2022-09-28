@@ -1,0 +1,34 @@
+html {
+    background: #222426;
+    color: white;
+}
+
+.mainh1 {
+    color: white;
+    text-align: center;
+    font-size: 700%/*120pt*/;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+.amain {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 250%/*40pt*/;
+
+}
+.amain:hover {
+    color: #f53381;
+}
+.ma0 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/*Main*/
+main {
+    background-color: #222426;
+}
+.glbodar {
+    width: 40%;
+}
