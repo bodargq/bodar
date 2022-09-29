@@ -1,6 +1,7 @@
 html {
     background: #222426;
     color: white;
+    overflow-x: hidden;
 }
 body {
     background: #222426;
@@ -49,14 +50,114 @@ h2 {
     margin-left: 44%;
 }
   
-  
+.grid {
+	position: relative;
+	z-index: 100;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 0 6em;
+	list-style: none;
+}
+
+.grid__item {
+	display: block;
+	-webkit-flex: none;
+	flex: none;
+	width: 33.33%;
+	padding: 10px;
+}
+
+.js .grid__item {
+	opacity: 0;
+}
+
+.grid__item--hidden {
+	opacity: 0;
+}
+
+.grid__link {
+	display: block;
+	padding: 13px 13px 0 13px;
+	background: #fff;
+    text-decoration: none;
+    outline: none;
+}
+
+.grid__img {
+	display: block;
+	width: 100%;
+}
+
+.grid__item-title {
+	font-family: 'Caveat', cursive;
+	line-height: 1;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 1em 0.5em;
+	text-align: left;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #698b8d;
+	background: #fff;
+}
+
+.priceuslugi {
+    margin-left: 2.5%;
+    display: inline;
+}
+footer {
+    background: #98465f;
+}
+
+.fcbgq {
+    padding-top: 15px;
+    opacity: 90%;
+    font-size: 100%;
+    color: white;
+}
+.dstdn {
+    display: none;
+}
+.footerbod {
+    color: white;
+    text-decoration: none;
+}
+.plbtn {
+    padding-top: -5%;
+    margin-left: 50%;
+}
 
 @media screen and (max-width: 980px) {
+    .mainh1 {
+        font-size: 450%;
+    }
     .mobdn {
         display: none;
     }
     .amain {
         font-size: 100%
     }
-
+    .grid__item {
+        width: 48%;
+    }
+    .grid__item-title {
+        font-size: 100%;
+    }
+    .services_name{
+        font-size: 50%
+    }
+    .priceuslugi {
+        width: 100%;
+    }
+    .dstdn {
+        display: block;
+        width: 99.9%;
+    }
  }
