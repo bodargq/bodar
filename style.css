@@ -84,7 +84,7 @@ h2 {
 .grid__link {
 	display: block;
 	padding: 13px 13px 0 13px;
-	background: #fff;
+	background: rgb(255, 255, 255);
     text-decoration: none;
     outline: none;
 }
@@ -132,6 +132,27 @@ footer {
 .plbtn {
     padding-top: -5%;
     margin-left: 50%;
+}
+
+.grid__link_ou {
+	display: block;
+	padding: 13px 13px 0 13px;
+	background: #f1d300;
+    text-decoration: none;
+    outline: none;
+}
+.grid__item-title_ou {
+	font-family: 'Caveat', cursive;
+	line-height: 1;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 1em 0.5em;
+	text-align: left;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #698b8d;
+	background: #f1d300;
 }
 
 @media screen and (max-width: 980px) {
