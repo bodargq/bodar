@@ -72,6 +72,13 @@ h2 {
 	width: 33.33%;
 	padding: 10px;
 }
+.grid__item_ou {
+	display: block;
+	-webkit-flex: none;
+	flex: none;
+	width: 33.33%;
+	padding: 10px;
+}
 
 .js .grid__item {
 	opacity: 0;
@@ -170,6 +177,9 @@ footer {
     }
     .grid__item-title {
         font-size: 100%;
+    }
+    .grid__item_ou {
+        width: 85%;
     }
     .services_name{
         font-size: 50%
