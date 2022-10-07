@@ -27,23 +27,27 @@ VANTA.TRUNK({
     showLines: false
   });
 
+function notinone(){
+    document.getElementById('notification').style.display = 'none';
+}
+
 var daq = document.getElementsByTagName('img');
 
 
 //document.getElementsByClassName('glbodarluna').style.display = 'none';
 var imgmas = document.getElementsByTagName('img');
 console.log(imgmas.length);
-imgmas[2].style.display = 'none';
+imgmas[3].style.display = 'none';
 
 function backbodar(){
     document.querySelector('button').style.display = 'none';
-    imgmas[3].style.opacity = '0';
-    imgmas[2].style.display = 'block';
+    imgmas[4].style.opacity = '0';
+    imgmas[3].style.display = 'block';
     setTimeout(() => {
-      imgmas[2].style.display = 'none';
+      imgmas[3].style.display = 'none';
     }, 3900);
     setTimeout(() => {
-      imgmas[3].style.opacity = '100';
+      imgmas[4].style.opacity = '100';
       document.querySelector('button').style.display = 'block';
     }, 5000);}
 
@@ -100,4 +104,3 @@ function backbodar(){
       }
       playing2 = !playing2;
     }
-
